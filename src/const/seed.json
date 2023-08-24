@@ -1,0 +1,2522 @@
+[
+  {
+    "patient": [
+      {
+        "id": "a016f6cf-d7c3-4063-8e7d-811fd9b73cf2",
+        "first_name": "Robert",
+        "last_name": "Davis",
+        "dob": "2023-08-24T11:01:23.360Z",
+        "gender": "Male",
+        "phone": "555-1234",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T12:30:39.496Z",
+        "updated_at": "2023-08-24T01:22:31.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e51bffa-079c-4c1b-9dd1-16238d0e1d51",
+        "first_name": "Jennifer",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T12:53:08.995Z",
+        "gender": "Female",
+        "phone": "555-5678",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T07:42:17.517Z",
+        "updated_at": "2023-08-24T08:14:50.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38357561-3f0b-4834-841f-5bf53d3a258b",
+        "first_name": "William",
+        "last_name": "Johnson",
+        "dob": "2023-08-23T23:56:32.556Z",
+        "gender": "Male",
+        "phone": "555-9876",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T20:40:54.270Z",
+        "updated_at": "2023-08-24T20:12:45.394Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d964b2a6-7eb1-4dd1-a302-7c7c0a2dd70a",
+        "first_name": "Emily",
+        "last_name": "Wilson",
+        "dob": "2023-08-24T19:45:00.476Z",
+        "gender": "Female",
+        "phone": "555-4321",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T01:25:28.523Z",
+        "updated_at": "2023-08-24T08:58:19.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3877b2c0-03a2-44bf-94f1-b14a79de400a",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-08-24T06:42:37.928Z",
+        "gender": "Male",
+        "phone": "555-8765",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T20:19:47.733Z",
+        "updated_at": "2023-08-24T12:43:05.266Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "a3e08048-e102-42b0-842f-3f3bda334ab8",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation exercises for injury recovery",
+        "status": "Pending",
+        "created_at": "2023-08-24T08:27:07.636Z",
+        "updated_at": "2023-08-24T17:53:28.798Z",
+        "patient_id": "38357561-3f0b-4834-841f-5bf53d3a258b"
+      },
+      {
+        "id": "6b065579-cf95-4136-be52-f87df254e1ff",
+        "name": "Root Canal",
+        "description": "Treatment for infected tooth pulp",
+        "status": "Completed",
+        "created_at": "2023-08-24T10:55:49.453Z",
+        "updated_at": "2023-08-24T14:42:41.366Z",
+        "patient_id": "3877b2c0-03a2-44bf-94f1-b14a79de400a"
+      },
+      {
+        "id": "2dc6fdeb-f6f8-426e-ab93-3965e23041cc",
+        "name": "Knee Replacement Surgery",
+        "description": "Surgical procedure to replace a damaged knee joint",
+        "status": "In Progress",
+        "created_at": "2023-08-24T15:42:26.144Z",
+        "updated_at": "2023-08-24T23:04:33.060Z",
+        "patient_id": "5e51bffa-079c-4c1b-9dd1-16238d0e1d51"
+      },
+      {
+        "id": "2c583ef7-47e4-46ff-8ee6-ce7ed01b1a39",
+        "name": "Immunization",
+        "description": "Administration of vaccines to prevent diseases",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T14:06:58.070Z",
+        "updated_at": "2023-08-24T00:12:00.282Z",
+        "patient_id": "5e51bffa-079c-4c1b-9dd1-16238d0e1d51"
+      },
+      {
+        "id": "267b6f1d-c17e-48be-90c9-e2b3f3907c83",
+        "name": "Acne Treatment",
+        "description": "Medical treatment for acne and related skin conditions",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T04:37:46.287Z",
+        "updated_at": "2023-08-24T23:17:29.821Z",
+        "patient_id": "5e51bffa-079c-4c1b-9dd1-16238d0e1d51"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "8379ee9c-f126-45d5-9068-f6084982b7f9",
+        "name": "Common Cold",
+        "description": "Viral infection causing runny nose and sore throat",
+        "created_at": "2023-08-24T14:05:08.311Z",
+        "updated_at": "2023-08-24T09:45:55.452Z",
+        "treatment_id": "267b6f1d-c17e-48be-90c9-e2b3f3907c83"
+      },
+      {
+        "id": "4d50312c-a119-464c-ba3e-444d435a35f8",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T20:05:38.296Z",
+        "updated_at": "2023-08-24T15:28:36.218Z",
+        "treatment_id": "267b6f1d-c17e-48be-90c9-e2b3f3907c83"
+      },
+      {
+        "id": "5b426d67-716b-4e27-a96c-0e96802b7702",
+        "name": "Hypertension",
+        "description": "High blood pressure leading to cardiovascular problems",
+        "created_at": "2023-08-24T09:52:38.128Z",
+        "updated_at": "2023-08-24T08:46:20.086Z",
+        "treatment_id": "2dc6fdeb-f6f8-426e-ab93-3965e23041cc"
+      },
+      {
+        "id": "9c2b6b30-0644-42c2-9c6b-4c6f6529ae56",
+        "name": "Bronchitis",
+        "description": "Inflammation of the airways causing cough and difficulty breathing",
+        "created_at": "2023-08-24T09:26:39.720Z",
+        "updated_at": "2023-08-24T19:53:32.435Z",
+        "treatment_id": "a3e08048-e102-42b0-842f-3f3bda334ab8"
+      },
+      {
+        "id": "f30efe47-39ac-455b-8649-d7e19923b155",
+        "name": "Migraine",
+        "description": "Recurrent severe headaches often accompanied by nausea and sensitivity to light",
+        "created_at": "2023-08-24T07:27:33.406Z",
+        "updated_at": "2023-08-24T10:25:56.391Z",
+        "treatment_id": "6b065579-cf95-4136-be52-f87df254e1ff"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b36e82b9-5849-4fbc-835c-91fbdff81e40",
+        "date": "2023-08-24T03:24:53.924Z",
+        "time": "2023-08-24T06:36:48.709Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T03:52:51.981Z",
+        "updated_at": "2023-08-24T23:14:30.161Z",
+        "patient_id": "3877b2c0-03a2-44bf-94f1-b14a79de400a",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "99fe7cf7-2a26-43da-87bd-923d9b9f324f",
+        "date": "2023-08-24T12:30:36.678Z",
+        "time": "2023-08-24T10:15:55.076Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T18:56:39.916Z",
+        "updated_at": "2023-08-24T19:08:53.835Z",
+        "patient_id": "d964b2a6-7eb1-4dd1-a302-7c7c0a2dd70a",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "c59b5814-ed0b-4f25-9471-ea710483bfe1",
+        "date": "2023-08-24T04:45:13.769Z",
+        "time": "2023-08-24T20:52:55.317Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T20:43:56.468Z",
+        "updated_at": "2023-08-24T15:46:07.225Z",
+        "patient_id": "5e51bffa-079c-4c1b-9dd1-16238d0e1d51",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a8867233-c37a-4346-bd15-7d44d641707d",
+        "date": "2023-08-24T13:59:49.863Z",
+        "time": "2023-08-24T06:22:58.245Z",
+        "status": "No Show",
+        "created_at": "2023-08-24T17:37:44.475Z",
+        "updated_at": "2023-08-24T19:42:26.858Z",
+        "patient_id": "a016f6cf-d7c3-4063-8e7d-811fd9b73cf2",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "d181aa79-50d9-402c-91cf-adb105f8f31c",
+        "date": "2023-08-24T01:56:27.639Z",
+        "time": "2023-08-24T14:22:23.336Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T13:19:29.525Z",
+        "updated_at": "2023-08-24T17:52:40.807Z",
+        "patient_id": "a016f6cf-d7c3-4063-8e7d-811fd9b73cf2",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b460feed-5926-4c04-a71d-d7cca6e97753",
+        "email": "Luther_Durgan@yahoo.com",
+        "firstName": "Ashtyn",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52894881",
+        "tenantId": null
+      },
+      {
+        "reference": "749f1431-3eb3-4b0f-b2d5-e97a617359e7",
+        "email": "Raquel.Ratke59@gmail.com",
+        "firstName": "Sophia",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21505394",
+        "tenantId": null
+      },
+      {
+        "reference": "b80cf4c7-31e2-426b-9ba2-05ace7e2fe2c",
+        "email": "Rylan37@gmail.com",
+        "firstName": "Irma",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1017.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b99ebb28-8df8-463f-b24f-4cfc8747496a",
+        "email": "Marquis.Crooks-Kub38@gmail.com",
+        "firstName": "Jordi",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30523278",
+        "tenantId": null
+      },
+      {
+        "reference": "0334454a-d29b-427c-ac31-29d5e1031971",
+        "email": "Meredith21@yahoo.com",
+        "firstName": "Jesse",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/422.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "5b6e81bd-7b34-49dc-bf68-16ff00103dbc",
+        "first_name": "Emma",
+        "last_name": "Wilson",
+        "dob": "2023-08-24T19:15:45.967Z",
+        "gender": "Female",
+        "phone": "1234567890",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T18:17:28.447Z",
+        "updated_at": "2023-08-24T15:43:42.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5fcacb2-972d-40cc-8d66-9b3f5e4043c1",
+        "first_name": "Liam",
+        "last_name": "Davis",
+        "dob": "2023-08-24T23:22:09.468Z",
+        "gender": "Male",
+        "phone": "9876543210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T01:11:57.929Z",
+        "updated_at": "2023-08-24T15:10:01.698Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5759f127-5c94-4428-bf3b-962c39c06379",
+        "first_name": "Olivia",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T15:17:13.131Z",
+        "gender": "Female",
+        "phone": "5555555555",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T09:47:58.929Z",
+        "updated_at": "2023-08-24T16:21:35.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47b64915-d939-4a1c-9c22-d711c070cb5c",
+        "first_name": "Noah",
+        "last_name": "Thomas",
+        "dob": "2023-08-24T00:45:44.158Z",
+        "gender": "Male",
+        "phone": "9999999999",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T02:25:34.195Z",
+        "updated_at": "2023-08-24T23:03:59.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "934585b4-8c30-44e7-999a-e221ef6074c7",
+        "first_name": "Ava",
+        "last_name": "Harris",
+        "dob": "2023-08-24T14:11:41.812Z",
+        "gender": "Female",
+        "phone": "7777777777",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T19:16:04.562Z",
+        "updated_at": "2023-08-24T11:49:37.509Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "47de44ef-7c91-4d24-ac6a-eaf90a7acec3",
+        "name": "Physical Therapy",
+        "description": "Treatment for musculoskeletal injuries",
+        "status": "Pending",
+        "created_at": "2023-08-24T01:34:34.120Z",
+        "updated_at": "2023-08-24T23:02:58.559Z",
+        "patient_id": "47b64915-d939-4a1c-9c22-d711c070cb5c"
+      },
+      {
+        "id": "050e8f2c-3c2b-4f57-86ab-a34cc77971f0",
+        "name": "Root Canal",
+        "description": "Dental procedure to treat infected tooth",
+        "status": "Completed",
+        "created_at": "2023-08-24T21:33:25.733Z",
+        "updated_at": "2023-08-24T09:36:45.669Z",
+        "patient_id": "b5fcacb2-972d-40cc-8d66-9b3f5e4043c1"
+      },
+      {
+        "id": "91b3b2ac-68cd-408d-9bdc-badbb234c461",
+        "name": "Knee Replacement",
+        "description": "Surgical procedure to replace damaged knee joint",
+        "status": "In Progress",
+        "created_at": "2023-08-24T10:48:18.549Z",
+        "updated_at": "2023-08-24T16:11:04.491Z",
+        "patient_id": "5759f127-5c94-4428-bf3b-962c39c06379"
+      },
+      {
+        "id": "408808b2-a357-410f-806d-e9d6ef1486f6",
+        "name": "Cognitive Behavioral Therapy",
+        "description": "Therapy to address thoughts and behaviors",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T16:18:42.631Z",
+        "updated_at": "2023-08-24T02:21:44.298Z",
+        "patient_id": "47b64915-d939-4a1c-9c22-d711c070cb5c"
+      },
+      {
+        "id": "06aa8433-212c-410b-ad14-dd472daf7ec6",
+        "name": "Immunizations",
+        "description": "Vaccinations to prevent diseases",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T07:06:34.464Z",
+        "updated_at": "2023-08-24T13:54:05.612Z",
+        "patient_id": "5b6e81bd-7b34-49dc-bf68-16ff00103dbc"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "4ba25bbd-da70-4f24-b3c7-90d90189d4f6",
+        "name": "Common Cold",
+        "description": "Viral infection causing runny nose and sore throat",
+        "created_at": "2023-08-24T11:57:59.579Z",
+        "updated_at": "2023-08-24T01:17:56.458Z",
+        "treatment_id": "91b3b2ac-68cd-408d-9bdc-badbb234c461"
+      },
+      {
+        "id": "c5f8d3a0-3850-4b66-8580-b4ceacd4d590",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T21:31:33.455Z",
+        "updated_at": "2023-08-24T16:37:04.393Z",
+        "treatment_id": "408808b2-a357-410f-806d-e9d6ef1486f6"
+      },
+      {
+        "id": "70305728-1dda-4192-8e2a-e2487df6df30",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T19:28:39.907Z",
+        "updated_at": "2023-08-24T12:01:12.401Z",
+        "treatment_id": "06aa8433-212c-410b-ad14-dd472daf7ec6"
+      },
+      {
+        "id": "7cc3f42f-f120-4714-b060-fde78ef64bf6",
+        "name": "Anxiety Disorder",
+        "description": "Mental health disorder characterized by excessive worry",
+        "created_at": "2023-08-24T11:02:53.374Z",
+        "updated_at": "2023-08-24T01:11:53.416Z",
+        "treatment_id": "47de44ef-7c91-4d24-ac6a-eaf90a7acec3"
+      },
+      {
+        "id": "6f356791-067a-460e-ae7b-6a26b4618cb6",
+        "name": "Pneumonia",
+        "description": "Lung infection causing cough and difficulty breathing",
+        "created_at": "2023-08-24T14:09:57.510Z",
+        "updated_at": "2023-08-24T20:31:26.663Z",
+        "treatment_id": "47de44ef-7c91-4d24-ac6a-eaf90a7acec3"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d87081e9-3e3e-41d5-890b-460bbe480ab6",
+        "date": "2023-08-24T18:32:24.333Z",
+        "time": "2023-08-24T21:53:08.279Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T16:47:55.577Z",
+        "updated_at": "2023-08-24T07:54:16.833Z",
+        "patient_id": "5759f127-5c94-4428-bf3b-962c39c06379",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0d59c1e9-0a4e-4fa0-a991-5631b165ef77",
+        "date": "2023-08-24T21:36:34.738Z",
+        "time": "2023-08-24T15:47:52.235Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T23:19:44.118Z",
+        "updated_at": "2023-08-24T11:11:16.389Z",
+        "patient_id": "47b64915-d939-4a1c-9c22-d711c070cb5c",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f9d89b53-caad-4ea0-b6c6-14129ccb4753",
+        "date": "2023-08-24T17:29:04.181Z",
+        "time": "2023-08-24T11:19:51.457Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T09:08:38.015Z",
+        "updated_at": "2023-08-24T19:56:56.964Z",
+        "patient_id": "5759f127-5c94-4428-bf3b-962c39c06379",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "860e269b-1301-42bf-9a19-ec92c72123c2",
+        "date": "2023-08-24T21:26:51.572Z",
+        "time": "2023-08-24T00:46:09.463Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T16:52:32.548Z",
+        "updated_at": "2023-08-24T12:22:59.487Z",
+        "patient_id": "934585b4-8c30-44e7-999a-e221ef6074c7",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "3b35bb63-f679-40d8-b021-ee483403b355",
+        "date": "2023-08-24T06:04:27.418Z",
+        "time": "2023-08-24T09:09:02.028Z",
+        "status": "No Show",
+        "created_at": "2023-08-24T08:24:22.824Z",
+        "updated_at": "2023-08-24T17:26:11.555Z",
+        "patient_id": "5b6e81bd-7b34-49dc-bf68-16ff00103dbc",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b80efadc-13cd-4913-b1f7-81b95d442ace",
+        "email": "Jared_Kirlin79@gmail.com",
+        "firstName": "Braeden",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9448339",
+        "tenantId": null
+      },
+      {
+        "reference": "5c25039f-0867-4e20-910a-3daa48fb6d0e",
+        "email": "Tyler.Mann42@yahoo.com",
+        "firstName": "Andre",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90244246",
+        "tenantId": null
+      },
+      {
+        "reference": "5f31ea22-816f-4e59-9826-daeb80b7ccb0",
+        "email": "Roel.Torp-Upton@gmail.com",
+        "firstName": "Oswald",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/429.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23cde604-ede4-4d47-ba9e-d0b9163b791a",
+        "email": "Aric.Runolfsdottir12@yahoo.com",
+        "firstName": "Demario",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/673.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1cbadc65-6706-4915-860d-9c29ff6d14ba",
+        "email": "Otto.West85@yahoo.com",
+        "firstName": "Oswald",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1021150",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "615c83fb-840a-451b-a097-6c6f653947ce",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-08-24T21:26:58.862Z",
+        "gender": "Female",
+        "phone": "123-456-7890",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T19:31:07.585Z",
+        "updated_at": "2023-08-24T05:20:26.082Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa6fbe4a-d958-4d0f-93a3-c3c8ec9fcaf4",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "dob": "2023-08-24T06:55:21.545Z",
+        "gender": "Male",
+        "phone": "987-654-3210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T17:20:04.262Z",
+        "updated_at": "2023-08-24T06:49:08.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17bc536e-7d81-47cf-a592-77190465d81a",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "dob": "2023-08-24T22:03:53.981Z",
+        "gender": "Female",
+        "phone": "555-123-4567",
+        "address": "789 Oak Ave",
+        "created_at": "2023-08-24T04:42:34.954Z",
+        "updated_at": "2023-08-24T15:47:11.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55715076-25b7-45a4-9577-9664b690d527",
+        "first_name": "Jacob",
+        "last_name": "Jones",
+        "dob": "2023-08-24T16:53:46.719Z",
+        "gender": "Male",
+        "phone": "888-999-0000",
+        "address": "321 Pine Rd",
+        "created_at": "2023-08-24T15:14:58.107Z",
+        "updated_at": "2023-08-24T19:51:11.354Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87bd706e-3ea0-4b6f-8bc4-b21fc398b2ee",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "dob": "2023-08-24T17:20:50.622Z",
+        "gender": "Female",
+        "phone": "777-888-9999",
+        "address": "555 Maple Blvd",
+        "created_at": "2023-08-24T04:36:40.701Z",
+        "updated_at": "2023-08-24T01:26:31.020Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "f0e4fe0a-3708-4012-9f21-39a5a1f995d6",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation for injuries",
+        "status": "In Progress",
+        "created_at": "2023-08-24T12:08:13.242Z",
+        "updated_at": "2023-08-24T08:19:37.734Z",
+        "patient_id": "55715076-25b7-45a4-9577-9664b690d527"
+      },
+      {
+        "id": "872e9737-7931-4234-88af-9dc0ea7f959e",
+        "name": "Root Canal",
+        "description": "Treatment for infected tooth",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:04:46.841Z",
+        "updated_at": "2023-08-24T02:00:07.626Z",
+        "patient_id": "fa6fbe4a-d958-4d0f-93a3-c3c8ec9fcaf4"
+      },
+      {
+        "id": "6b038eff-ab7a-4e9b-8d82-eb9a76e54f93",
+        "name": "Knee Replacement Surgery",
+        "description": "Surgical procedure for knee joint",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T03:37:14.408Z",
+        "updated_at": "2023-08-24T23:24:18.042Z",
+        "patient_id": "87bd706e-3ea0-4b6f-8bc4-b21fc398b2ee"
+      },
+      {
+        "id": "bb4e01dd-21b8-46ea-8d8e-5287ef290ef1",
+        "name": "Vaccination",
+        "description": "Preventive measure against diseases",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T06:40:51.565Z",
+        "updated_at": "2023-08-24T02:50:03.692Z",
+        "patient_id": "615c83fb-840a-451b-a097-6c6f653947ce"
+      },
+      {
+        "id": "96ba8ca8-be3e-4cdb-8f2f-0ddf49e25813",
+        "name": "Acne Treatment",
+        "description": "Skin treatment for acne",
+        "status": "Pending",
+        "created_at": "2023-08-24T01:07:20.759Z",
+        "updated_at": "2023-08-24T08:58:40.255Z",
+        "patient_id": "17bc536e-7d81-47cf-a592-77190465d81a"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "53bf3894-e6a6-4750-8848-1bcd66325244",
+        "name": "Common Cold",
+        "description": "Viral infection causing runny nose and cough",
+        "created_at": "2023-08-24T18:02:25.119Z",
+        "updated_at": "2023-08-24T07:11:00.245Z",
+        "treatment_id": "bb4e01dd-21b8-46ea-8d8e-5287ef290ef1"
+      },
+      {
+        "id": "eac5f002-5512-4bcb-a9eb-c767a1d0fc3b",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T13:18:16.264Z",
+        "updated_at": "2023-08-24T11:27:09.854Z",
+        "treatment_id": "872e9737-7931-4234-88af-9dc0ea7f959e"
+      },
+      {
+        "id": "749638b5-c85f-46d6-b594-720a4cccd452",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T03:07:03.034Z",
+        "updated_at": "2023-08-24T16:57:48.791Z",
+        "treatment_id": "f0e4fe0a-3708-4012-9f21-39a5a1f995d6"
+      },
+      {
+        "id": "8a52a797-9597-4c37-bbc0-1c89215bbac5",
+        "name": "Migraine",
+        "description": "Severe headache with nausea",
+        "created_at": "2023-08-24T05:53:43.692Z",
+        "updated_at": "2023-08-24T18:19:35.201Z",
+        "treatment_id": "96ba8ca8-be3e-4cdb-8f2f-0ddf49e25813"
+      },
+      {
+        "id": "bf4cf11c-5f41-4b29-bbfc-c99508ccde27",
+        "name": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes",
+        "created_at": "2023-08-24T04:39:38.646Z",
+        "updated_at": "2023-08-24T07:24:02.565Z",
+        "treatment_id": "6b038eff-ab7a-4e9b-8d82-eb9a76e54f93"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "6d9798e8-d682-4353-a788-264deec46527",
+        "date": "2023-08-24T08:13:20.759Z",
+        "time": "2023-08-24T18:07:16.154Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T04:31:33.395Z",
+        "updated_at": "2023-08-24T16:15:22.381Z",
+        "patient_id": "17bc536e-7d81-47cf-a592-77190465d81a",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "db97518f-d162-4cbd-9d3e-91d6d709ca1e",
+        "date": "2023-08-24T18:16:34.389Z",
+        "time": "2023-08-24T01:12:39.682Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T08:01:39.245Z",
+        "updated_at": "2023-08-24T20:07:05.416Z",
+        "patient_id": "87bd706e-3ea0-4b6f-8bc4-b21fc398b2ee",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "10475750-8e44-41e9-bc12-a45e072f3e0f",
+        "date": "2023-08-24T02:19:57.835Z",
+        "time": "2023-08-24T20:43:42.933Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T05:07:27.993Z",
+        "updated_at": "2023-08-24T00:09:27.643Z",
+        "patient_id": "615c83fb-840a-451b-a097-6c6f653947ce",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1759b58e-dc5e-48a0-9cfc-eece96b91316",
+        "date": "2023-08-24T22:35:28.546Z",
+        "time": "2023-08-24T17:46:07.081Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T12:41:53.861Z",
+        "updated_at": "2023-08-24T10:35:23.813Z",
+        "patient_id": "55715076-25b7-45a4-9577-9664b690d527",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8b9fcc24-4a0a-4c53-8a6e-ced9882ad01e",
+        "date": "2023-08-24T03:04:16.491Z",
+        "time": "2023-08-24T06:24:29.732Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T02:54:24.557Z",
+        "updated_at": "2023-08-24T10:03:21.802Z",
+        "patient_id": "55715076-25b7-45a4-9577-9664b690d527",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f44c9c1-5d50-4deb-9bcf-b89303a568df",
+        "email": "Carlee51@hotmail.com",
+        "firstName": "Lorenzo",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/707.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3265d6ca-86ee-4c83-9f37-701aef86ecd6",
+        "email": "Wellington.Swaniawski76@hotmail.com",
+        "firstName": "Marjorie",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/424.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66ebba46-0189-45fc-808a-a65730cc6c9d",
+        "email": "Kaylee25@hotmail.com",
+        "firstName": "Dusty",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/380.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3a30945-4fb5-424c-9fac-105f45b12438",
+        "email": "Raul.Zieme@hotmail.com",
+        "firstName": "Lina",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2804011",
+        "tenantId": null
+      },
+      {
+        "reference": "28ed39f2-7225-4049-a6c4-c2aa065e8c19",
+        "email": "Justice_Stokes97@gmail.com",
+        "firstName": "Joshua",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/106.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "a60c8e71-ee84-46c7-abf6-5bfc9dbc3871",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "dob": "2023-08-24T20:12:42.207Z",
+        "gender": "Female",
+        "phone": "1234567890",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T20:48:47.665Z",
+        "updated_at": "2023-08-24T16:09:57.650Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57b81c04-5c57-4985-b5f0-db2e2be9d757",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "dob": "2023-08-24T10:36:08.464Z",
+        "gender": "Male",
+        "phone": "9876543210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T08:15:23.421Z",
+        "updated_at": "2023-08-24T13:11:21.850Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f9c486f-8ec5-46fb-970f-d3f6638a11d8",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "dob": "2023-08-24T00:10:24.842Z",
+        "gender": "Female",
+        "phone": "5678901234",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T04:06:13.722Z",
+        "updated_at": "2023-08-24T07:49:41.973Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7907e24c-b0f2-45af-a51e-6847acd6aec4",
+        "first_name": "David",
+        "last_name": "Davis",
+        "dob": "2023-08-24T03:57:14.541Z",
+        "gender": "Male",
+        "phone": "4321098765",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T03:16:28.080Z",
+        "updated_at": "2023-08-24T23:26:08.173Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "feb3699f-2e84-414b-a798-454ce793ac54",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "dob": "2023-08-24T14:53:44.951Z",
+        "gender": "Female",
+        "phone": "9012345678",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T23:23:05.158Z",
+        "updated_at": "2023-08-24T14:12:30.122Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "93274b0d-450a-410a-8b00-48d0d8a25494",
+        "name": "Physical therapy",
+        "description": "Treatment for musculoskeletal injuries",
+        "status": "In progress",
+        "created_at": "2023-08-24T05:58:38.958Z",
+        "updated_at": "2023-08-24T12:30:26.933Z",
+        "patient_id": "3f9c486f-8ec5-46fb-970f-d3f6638a11d8"
+      },
+      {
+        "id": "6d38a3d6-0d5f-45f6-b98a-08625f685a04",
+        "name": "Root canal",
+        "description": "Dental procedure to treat infected tooth",
+        "status": "Completed",
+        "created_at": "2023-08-24T15:51:25.316Z",
+        "updated_at": "2023-08-24T21:47:06.765Z",
+        "patient_id": "3f9c486f-8ec5-46fb-970f-d3f6638a11d8"
+      },
+      {
+        "id": "7d600e01-7e4b-4765-8346-22435e2254ba",
+        "name": "Knee replacement surgery",
+        "description": "Surgical procedure to replace damaged knee joint",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T02:14:09.962Z",
+        "updated_at": "2023-08-24T06:07:26.959Z",
+        "patient_id": "57b81c04-5c57-4985-b5f0-db2e2be9d757"
+      },
+      {
+        "id": "8665f193-346e-40d9-81f5-a483dd8e1c17",
+        "name": "Cognitive behavioral therapy",
+        "description": "Psychotherapy to address negative thought patterns",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T06:06:39.414Z",
+        "updated_at": "2023-08-24T21:39:13.023Z",
+        "patient_id": "57b81c04-5c57-4985-b5f0-db2e2be9d757"
+      },
+      {
+        "id": "ffb603f8-bc75-4336-82d6-b17ab017acf5",
+        "name": "Immunization",
+        "description": "Preventive measure to protect against infectious diseases",
+        "status": "On hold",
+        "created_at": "2023-08-24T20:17:56.968Z",
+        "updated_at": "2023-08-24T08:13:37.833Z",
+        "patient_id": "57b81c04-5c57-4985-b5f0-db2e2be9d757"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "6d871fe3-7479-4028-befc-f3d24651be2d",
+        "name": "Common cold",
+        "description": "Viral infection causing nasal congestion and sore throat",
+        "created_at": "2023-08-24T15:01:59.324Z",
+        "updated_at": "2023-08-24T21:52:20.769Z",
+        "treatment_id": "93274b0d-450a-410a-8b00-48d0d8a25494"
+      },
+      {
+        "id": "8da8dae2-0363-442e-bbfc-d9e8d2b952d5",
+        "name": "Hypertension",
+        "description": "High blood pressure leading to increased risk of heart disease",
+        "created_at": "2023-08-24T05:39:26.502Z",
+        "updated_at": "2023-08-24T22:16:48.212Z",
+        "treatment_id": "7d600e01-7e4b-4765-8346-22435e2254ba"
+      },
+      {
+        "id": "d7077ca9-025f-4556-a052-c0760d12aaf7",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T23:20:53.026Z",
+        "updated_at": "2023-08-24T05:53:52.278Z",
+        "treatment_id": "6d38a3d6-0d5f-45f6-b98a-08625f685a04"
+      },
+      {
+        "id": "e807733e-7635-4d1f-94b1-9658bb927f09",
+        "name": "Anxiety disorder",
+        "description": "Persistent worry and fear that interferes with daily activities",
+        "created_at": "2023-08-24T23:35:03.812Z",
+        "updated_at": "2023-08-24T08:21:33.900Z",
+        "treatment_id": "7d600e01-7e4b-4765-8346-22435e2254ba"
+      },
+      {
+        "id": "f931798d-2cc3-4cab-a63c-ec70fe4132e7",
+        "name": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes causing cough and difficulty breathing",
+        "created_at": "2023-08-24T00:49:14.125Z",
+        "updated_at": "2023-08-24T17:53:24.830Z",
+        "treatment_id": "7d600e01-7e4b-4765-8346-22435e2254ba"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d6622f92-6f5d-4815-8119-e535df38d153",
+        "date": "2023-08-24T19:23:31.771Z",
+        "time": "2023-08-24T02:11:34.254Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T17:21:13.958Z",
+        "updated_at": "2023-08-24T17:38:21.728Z",
+        "patient_id": "3f9c486f-8ec5-46fb-970f-d3f6638a11d8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "ae6ea974-422c-4873-abb1-a28a479794da",
+        "date": "2023-08-24T08:20:58.543Z",
+        "time": "2023-08-24T16:17:27.873Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T02:54:46.918Z",
+        "updated_at": "2023-08-24T07:24:32.550Z",
+        "patient_id": "feb3699f-2e84-414b-a798-454ce793ac54",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2c6813b3-016c-4140-97bc-8084c1e1e8db",
+        "date": "2023-08-24T09:54:56.277Z",
+        "time": "2023-08-24T19:43:37.656Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T03:00:20.511Z",
+        "updated_at": "2023-08-24T07:54:01.707Z",
+        "patient_id": "feb3699f-2e84-414b-a798-454ce793ac54",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "46c9b462-3c53-4614-a58a-144164d26bac",
+        "date": "2023-08-24T05:46:25.499Z",
+        "time": "2023-08-24T01:36:57.911Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T19:32:39.098Z",
+        "updated_at": "2023-08-24T14:42:24.720Z",
+        "patient_id": "57b81c04-5c57-4985-b5f0-db2e2be9d757",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "7655a9c9-87df-454e-aabb-939f91c8bac8",
+        "date": "2023-08-24T19:07:34.599Z",
+        "time": "2023-08-24T12:57:02.290Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T22:26:59.960Z",
+        "updated_at": "2023-08-24T15:27:13.556Z",
+        "patient_id": "7907e24c-b0f2-45af-a51e-6847acd6aec4",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "da05e758-6e0d-46d0-aa40-de3007128095",
+        "email": "Cassandra52@gmail.com",
+        "firstName": "Delia",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85335506",
+        "tenantId": null
+      },
+      {
+        "reference": "3daeb622-5a94-48c7-8bc9-8f0ed77b099a",
+        "email": "Loren.Davis@hotmail.com",
+        "firstName": "Kaylah",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2dfa0603-0311-4763-8b73-bda600998c47",
+        "email": "Bud55@yahoo.com",
+        "firstName": "Violet",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/516.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "826a97d7-ae9a-46ae-a7de-a6de5e7936ad",
+        "email": "Franco_Hintz@yahoo.com",
+        "firstName": "Reece",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88780985",
+        "tenantId": null
+      },
+      {
+        "reference": "d3f920df-9ab2-490e-8fe9-42f4138dbe26",
+        "email": "Daren_Williamson@gmail.com",
+        "firstName": "Hilbert",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38220882",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "8b03e67c-ec29-4083-a948-e70aac2fda2b",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-08-24T20:12:04.027Z",
+        "gender": "Female",
+        "phone": "555-1234",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T07:31:23.632Z",
+        "updated_at": "2023-08-24T17:52:17.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "731ed7fa-0210-4c1e-95f2-ea76fb91b56b",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T05:15:23.948Z",
+        "gender": "Male",
+        "phone": "555-5678",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T06:58:11.731Z",
+        "updated_at": "2023-08-24T14:31:46.342Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fae9589a-adb4-4fe4-bdee-e09a9f282bd8",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "dob": "2023-08-24T21:34:25.443Z",
+        "gender": "Female",
+        "phone": "555-9012",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T19:00:15.526Z",
+        "updated_at": "2023-08-24T11:50:33.221Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98f95adb-38fc-4101-8a78-d3b84691c856",
+        "first_name": "Matthew",
+        "last_name": "Clark",
+        "dob": "2023-08-24T21:34:43.858Z",
+        "gender": "Male",
+        "phone": "555-3456",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T05:36:43.768Z",
+        "updated_at": "2023-08-24T02:15:38.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b986196e-32bf-490c-91ba-06e891228521",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "dob": "2023-08-24T20:48:25.004Z",
+        "gender": "Female",
+        "phone": "555-7890",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T12:43:07.659Z",
+        "updated_at": "2023-08-24T06:01:27.343Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "b22d61a1-6539-4237-a245-a6b6960c96a0",
+        "name": "Physical Therapy",
+        "description": "Treatment for musculoskeletal injuries",
+        "status": "In progress",
+        "created_at": "2023-08-24T19:52:34.935Z",
+        "updated_at": "2023-08-24T07:06:10.137Z",
+        "patient_id": "98f95adb-38fc-4101-8a78-d3b84691c856"
+      },
+      {
+        "id": "0972443e-44a1-43b4-a557-6d2988a0ffce",
+        "name": "Dental Cleaning",
+        "description": "Routine dental checkup and cleaning",
+        "status": "Completed",
+        "created_at": "2023-08-24T13:54:49.171Z",
+        "updated_at": "2023-08-24T02:54:29.264Z",
+        "patient_id": "731ed7fa-0210-4c1e-95f2-ea76fb91b56b"
+      },
+      {
+        "id": "bb0518a7-e108-40db-92e4-57563856df08",
+        "name": "Orthopedic Surgery",
+        "description": "Surgical procedure for bone fractures",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T12:00:26.778Z",
+        "updated_at": "2023-08-24T03:26:28.801Z",
+        "patient_id": "8b03e67c-ec29-4083-a948-e70aac2fda2b"
+      },
+      {
+        "id": "d720c303-8a0a-4858-9413-5c8e8cc121e7",
+        "name": "Cognitive Behavioral Therapy",
+        "description": "Therapy for anxiety and depression",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T12:11:05.872Z",
+        "updated_at": "2023-08-24T10:18:02.784Z",
+        "patient_id": "fae9589a-adb4-4fe4-bdee-e09a9f282bd8"
+      },
+      {
+        "id": "1b64f0f1-e5e5-4939-a5de-729a6a9df215",
+        "name": "Vaccinations",
+        "description": "Immunizations for disease prevention",
+        "status": "Pending",
+        "created_at": "2023-08-24T06:29:23.175Z",
+        "updated_at": "2023-08-24T06:08:05.789Z",
+        "patient_id": "fae9589a-adb4-4fe4-bdee-e09a9f282bd8"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "919b8cdb-376e-49c9-81f0-2af108f8d2a1",
+        "name": "Common Cold",
+        "description": "Viral infection causing congestion and sore throat",
+        "created_at": "2023-08-24T03:06:40.713Z",
+        "updated_at": "2023-08-24T03:35:29.249Z",
+        "treatment_id": "0972443e-44a1-43b4-a557-6d2988a0ffce"
+      },
+      {
+        "id": "5c12a87a-42b8-49fe-a82a-0bdba4f0c911",
+        "name": "Hypertension",
+        "description": "High blood pressure leading to cardiovascular problems",
+        "created_at": "2023-08-24T01:57:21.554Z",
+        "updated_at": "2023-08-24T22:09:50.706Z",
+        "treatment_id": "bb0518a7-e108-40db-92e4-57563856df08"
+      },
+      {
+        "id": "431fe150-1ee5-467a-912a-9a7c9b81cb3a",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T20:46:49.045Z",
+        "updated_at": "2023-08-24T05:04:37.603Z",
+        "treatment_id": "d720c303-8a0a-4858-9413-5c8e8cc121e7"
+      },
+      {
+        "id": "0af1db91-a9ea-4029-8fac-5b5b05b46c3e",
+        "name": "Depression",
+        "description": "Mental health disorder characterized by persistent sadness",
+        "created_at": "2023-08-24T18:39:59.845Z",
+        "updated_at": "2023-08-24T13:50:41.352Z",
+        "treatment_id": "1b64f0f1-e5e5-4939-a5de-729a6a9df215"
+      },
+      {
+        "id": "42be2af4-82c5-4624-93f3-a7ed2efd423f",
+        "name": "Asthma",
+        "description": "Respiratory condition causing difficulty in breathing",
+        "created_at": "2023-08-24T16:06:44.527Z",
+        "updated_at": "2023-08-24T08:20:32.028Z",
+        "treatment_id": "d720c303-8a0a-4858-9413-5c8e8cc121e7"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "6bc6f7ae-af2b-4caf-8151-47c2eb5effea",
+        "date": "2023-08-24T13:16:06.013Z",
+        "time": "2023-08-24T19:56:39.223Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T13:47:31.468Z",
+        "updated_at": "2023-08-24T18:19:53.224Z",
+        "patient_id": "fae9589a-adb4-4fe4-bdee-e09a9f282bd8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "8eeb7bb4-8f72-40a8-ab66-1ed27f98db23",
+        "date": "2023-08-24T04:37:29.699Z",
+        "time": "2023-08-24T03:14:50.427Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T12:45:55.987Z",
+        "updated_at": "2023-08-24T04:51:03.767Z",
+        "patient_id": "b986196e-32bf-490c-91ba-06e891228521",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "329c30c3-eb97-4e04-8bfb-f10faff8c4e8",
+        "date": "2023-08-24T02:26:55.832Z",
+        "time": "2023-08-24T13:11:13.348Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T20:59:50.476Z",
+        "updated_at": "2023-08-24T13:17:24.287Z",
+        "patient_id": "8b03e67c-ec29-4083-a948-e70aac2fda2b",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "274505cf-239d-4fdd-8498-de672bf1ced8",
+        "date": "2023-08-24T00:44:26.669Z",
+        "time": "2023-08-24T04:24:14.960Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T03:01:30.988Z",
+        "updated_at": "2023-08-24T03:44:30.040Z",
+        "patient_id": "8b03e67c-ec29-4083-a948-e70aac2fda2b",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "979b52e7-eb2b-4eb8-854d-9f29eead1aab",
+        "date": "2023-08-24T00:37:37.567Z",
+        "time": "2023-08-24T22:33:47.800Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T10:30:15.127Z",
+        "updated_at": "2023-08-24T20:54:59.256Z",
+        "patient_id": "8b03e67c-ec29-4083-a948-e70aac2fda2b",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14a038d6-fdbc-4229-83c6-1f25a0566ce0",
+        "email": "Noemi.Collier11@gmail.com",
+        "firstName": "Junius",
+        "lastName": "Wunsch-Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8000060",
+        "tenantId": null
+      },
+      {
+        "reference": "faacf765-4708-4189-acfa-00c15ca86b14",
+        "email": "Maybell.Hartmann96@gmail.com",
+        "firstName": "Jon",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82810926",
+        "tenantId": null
+      },
+      {
+        "reference": "555c237c-24df-46b3-aa26-3bda1efe1ec7",
+        "email": "Jeffry.Grimes@yahoo.com",
+        "firstName": "Opal",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77348975",
+        "tenantId": null
+      },
+      {
+        "reference": "efe8d818-9b39-4118-923d-5fdf5e9bcbaf",
+        "email": "Reese37@yahoo.com",
+        "firstName": "Elias",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74982653",
+        "tenantId": null
+      },
+      {
+        "reference": "45b9b13b-1f9b-4f0b-b99c-f15a0a856ee8",
+        "email": "Serena_Erdman@yahoo.com",
+        "firstName": "Bailey",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "45c83813-d907-469a-9a09-9ad6c6b6fd31",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T05:43:55.462Z",
+        "gender": "Female",
+        "phone": "1234567890",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T15:14:23.964Z",
+        "updated_at": "2023-08-24T04:44:32.220Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0516d009-3fdf-4df5-a7f0-1b89f0c97667",
+        "first_name": "Daniel",
+        "last_name": "Taylor",
+        "dob": "2023-08-24T14:53:21.645Z",
+        "gender": "Male",
+        "phone": "9876543210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T22:13:51.930Z",
+        "updated_at": "2023-08-24T15:13:49.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff1b212e-4766-4389-ae2a-0eaa96c803a4",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "dob": "2023-08-24T12:51:01.224Z",
+        "gender": "Female",
+        "phone": "4567891230",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T06:52:02.448Z",
+        "updated_at": "2023-08-24T19:15:47.362Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f740d8bc-19e2-428d-a513-efe0389766c0",
+        "first_name": "James",
+        "last_name": "Clark",
+        "dob": "2023-08-24T04:21:05.400Z",
+        "gender": "Male",
+        "phone": "7891234560",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T16:41:59.945Z",
+        "updated_at": "2023-08-24T19:13:10.450Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb91a949-6afa-446f-9b55-10e5fdf223cb",
+        "first_name": "Sophia",
+        "last_name": "Walker",
+        "dob": "2023-08-24T00:05:40.178Z",
+        "gender": "Female",
+        "phone": "3216549870",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T12:36:47.739Z",
+        "updated_at": "2023-08-24T02:35:11.895Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "6629e7a8-9947-4f16-85e6-4f93cbb7cb89",
+        "name": "Root Canal",
+        "description": "Treatment for infected tooth pulp",
+        "status": "In Progress",
+        "created_at": "2023-08-24T08:16:56.701Z",
+        "updated_at": "2023-08-24T12:37:58.560Z",
+        "patient_id": "cb91a949-6afa-446f-9b55-10e5fdf223cb"
+      },
+      {
+        "id": "b1fea4be-fa64-4c00-8c78-278b9c2adcfb",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation through exercises and techniques",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:56:15.292Z",
+        "updated_at": "2023-08-24T11:58:06.962Z",
+        "patient_id": "45c83813-d907-469a-9a09-9ad6c6b6fd31"
+      },
+      {
+        "id": "5a3f489e-6c31-44ef-8714-9096ce0cac32",
+        "name": "Cavity Filling",
+        "description": "Filling of tooth decay",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T14:17:37.238Z",
+        "updated_at": "2023-08-24T01:11:29.292Z",
+        "patient_id": "ff1b212e-4766-4389-ae2a-0eaa96c803a4"
+      },
+      {
+        "id": "859c357f-0f51-4def-af2f-793e5b497e50",
+        "name": "Knee Replacement",
+        "description": "Surgical procedure to replace damaged knee joint",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T10:33:44.115Z",
+        "updated_at": "2023-08-24T01:55:21.739Z",
+        "patient_id": "45c83813-d907-469a-9a09-9ad6c6b6fd31"
+      },
+      {
+        "id": "afe8565c-43bb-44d9-8544-1e4468ca3eb1",
+        "name": "Angioplasty",
+        "description": "Opening blocked blood vessels",
+        "status": "Postponed",
+        "created_at": "2023-08-24T21:36:30.265Z",
+        "updated_at": "2023-08-24T11:06:47.637Z",
+        "patient_id": "cb91a949-6afa-446f-9b55-10e5fdf223cb"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "fcf013ad-0244-46de-9505-478575c57a5a",
+        "name": "Flu",
+        "description": "Viral infection causing fever and body aches",
+        "created_at": "2023-08-24T08:55:22.681Z",
+        "updated_at": "2023-08-24T01:53:30.347Z",
+        "treatment_id": "afe8565c-43bb-44d9-8544-1e4468ca3eb1"
+      },
+      {
+        "id": "1b06d000-dee1-4547-bada-32d7a828c4ba",
+        "name": "Broken Arm",
+        "description": "Fracture in the arm bone",
+        "created_at": "2023-08-24T00:49:00.132Z",
+        "updated_at": "2023-08-24T00:37:09.843Z",
+        "treatment_id": "6629e7a8-9947-4f16-85e6-4f93cbb7cb89"
+      },
+      {
+        "id": "e6d0a6af-3434-43a8-8a27-1d0d5dcd5e02",
+        "name": "Pneumonia",
+        "description": "Lung infection causing cough and difficulty breathing",
+        "created_at": "2023-08-24T16:00:38.579Z",
+        "updated_at": "2023-08-24T00:04:44.312Z",
+        "treatment_id": "859c357f-0f51-4def-af2f-793e5b497e50"
+      },
+      {
+        "id": "726220c8-13a1-40d8-a76c-9d7c08f5ce2c",
+        "name": "Appendicitis",
+        "description": "Inflammation of the appendix",
+        "created_at": "2023-08-24T18:36:54.685Z",
+        "updated_at": "2023-08-24T07:32:21.532Z",
+        "treatment_id": "859c357f-0f51-4def-af2f-793e5b497e50"
+      },
+      {
+        "id": "90afcdbb-d62d-4fc2-9717-2c2caf69635b",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T00:49:34.460Z",
+        "updated_at": "2023-08-24T10:57:11.482Z",
+        "treatment_id": "6629e7a8-9947-4f16-85e6-4f93cbb7cb89"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ebb6c57d-7b94-4658-8f4e-65b37a82328a",
+        "date": "2023-08-24T17:30:15.544Z",
+        "time": "2023-08-24T06:14:23.639Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T06:17:23.736Z",
+        "updated_at": "2023-08-24T12:57:37.333Z",
+        "patient_id": "ff1b212e-4766-4389-ae2a-0eaa96c803a4",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "068d984c-08fc-44b1-bbaa-3be0de777aee",
+        "date": "2023-08-24T03:15:26.118Z",
+        "time": "2023-08-24T01:16:23.441Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T13:58:09.704Z",
+        "updated_at": "2023-08-24T03:28:12.519Z",
+        "patient_id": "f740d8bc-19e2-428d-a513-efe0389766c0",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "a2783b60-5d6f-4ed5-a35f-eebb55cb46b0",
+        "date": "2023-08-24T12:14:52.529Z",
+        "time": "2023-08-24T19:26:22.346Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T02:40:45.798Z",
+        "updated_at": "2023-08-24T03:11:51.869Z",
+        "patient_id": "ff1b212e-4766-4389-ae2a-0eaa96c803a4",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "88012349-06cf-4fbe-b5e3-09305e3f0f5e",
+        "date": "2023-08-24T07:32:23.970Z",
+        "time": "2023-08-24T05:06:49.057Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T03:34:14.538Z",
+        "updated_at": "2023-08-24T15:54:32.078Z",
+        "patient_id": "f740d8bc-19e2-428d-a513-efe0389766c0",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "97c55934-c86c-4adc-9a18-19c8184cf746",
+        "date": "2023-08-24T01:11:35.611Z",
+        "time": "2023-08-24T10:57:07.030Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:52:50.408Z",
+        "updated_at": "2023-08-24T06:18:45.740Z",
+        "patient_id": "0516d009-3fdf-4df5-a7f0-1b89f0c97667",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ea057ab-1054-4823-86d9-dd925b2680e9",
+        "email": "Laury54@hotmail.com",
+        "firstName": "Solon",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67855515",
+        "tenantId": null
+      },
+      {
+        "reference": "ae9b78bd-3990-4375-bebc-b4cee1dc387f",
+        "email": "Enola.Harris63@gmail.com",
+        "firstName": "Rosalinda",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28241648",
+        "tenantId": null
+      },
+      {
+        "reference": "e5eb5cbc-4715-4f0f-8e5c-378f1e4af6c2",
+        "email": "Cullen85@hotmail.com",
+        "firstName": "Bryana",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f5d7a50e-29c0-485a-a755-f8cbe0da71c7",
+        "email": "Emilio.Cronin50@gmail.com",
+        "firstName": "Junior",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/75.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0d74de0-6886-4f79-a030-2b58bf44b0ec",
+        "email": "Donna16@hotmail.com",
+        "firstName": "Alvina",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77243438",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "04cef940-1011-4d35-b812-85c9857f13d2",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T09:53:32.683Z",
+        "gender": "Female",
+        "phone": "555-1234",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T22:11:19.453Z",
+        "updated_at": "2023-08-24T16:58:04.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ebaf278-d28a-4160-bcb8-9a9c974546eb",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "dob": "2023-08-24T00:17:42.593Z",
+        "gender": "Male",
+        "phone": "555-5678",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T10:00:31.473Z",
+        "updated_at": "2023-08-24T04:59:45.199Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a06b5f9f-377f-4d7c-bce5-6548117eea5a",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "dob": "2023-08-24T06:35:39.450Z",
+        "gender": "Female",
+        "phone": "555-9876",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T21:07:54.185Z",
+        "updated_at": "2023-08-24T10:23:25.693Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcb4e9f6-40d4-43ea-94e1-81f3b013f808",
+        "first_name": "William",
+        "last_name": "Walker",
+        "dob": "2023-08-24T18:56:58.701Z",
+        "gender": "Male",
+        "phone": "555-4321",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T19:21:32.552Z",
+        "updated_at": "2023-08-24T17:47:49.717Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d51988b-3e27-4d3d-b597-dad30ffea9f5",
+        "first_name": "Sophia",
+        "last_name": "Turner",
+        "dob": "2023-08-24T01:23:48.558Z",
+        "gender": "Female",
+        "phone": "555-8765",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T07:16:13.496Z",
+        "updated_at": "2023-08-24T07:32:57.531Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "837cc90c-ec4f-4356-a67c-5623c25f9d3d",
+        "name": "Physical Therapy",
+        "description": "Treatment for muscle pain and injuries",
+        "status": "Pending",
+        "created_at": "2023-08-24T06:27:26.712Z",
+        "updated_at": "2023-08-24T08:03:07.317Z",
+        "patient_id": "3d51988b-3e27-4d3d-b597-dad30ffea9f5"
+      },
+      {
+        "id": "1e9b11a1-7aa2-4081-a325-b39162b49088",
+        "name": "Dental Cleaning",
+        "description": "Routine dental checkup and cleaning",
+        "status": "Completed",
+        "created_at": "2023-08-24T07:54:26.557Z",
+        "updated_at": "2023-08-24T17:25:07.176Z",
+        "patient_id": "04cef940-1011-4d35-b812-85c9857f13d2"
+      },
+      {
+        "id": "887b6ba7-5661-49b3-83e0-4b7bded121a2",
+        "name": "Orthopedic Surgery",
+        "description": "Surgical procedure for bone or joint issues",
+        "status": "In Progress",
+        "created_at": "2023-08-24T13:37:06.757Z",
+        "updated_at": "2023-08-24T23:09:45.646Z",
+        "patient_id": "3d51988b-3e27-4d3d-b597-dad30ffea9f5"
+      },
+      {
+        "id": "037d9fe2-ffc9-464a-b406-6b960e58801f",
+        "name": "Cognitive Behavioral Therapy",
+        "description": "Therapy to address mental health conditions",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T21:18:40.507Z",
+        "updated_at": "2023-08-24T03:26:38.091Z",
+        "patient_id": "a06b5f9f-377f-4d7c-bce5-6548117eea5a"
+      },
+      {
+        "id": "662e4ad5-5876-4fee-bfb4-ac915a90f75b",
+        "name": "Chiropractic Adjustment",
+        "description": "Spinal adjustment for pain relief",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T02:23:27.915Z",
+        "updated_at": "2023-08-24T02:48:21.446Z",
+        "patient_id": "a06b5f9f-377f-4d7c-bce5-6548117eea5a"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "ca6371be-1492-474c-a0e4-97b10b1a1be5",
+        "name": "Common Cold",
+        "description": "Viral infection causing cough and congestion",
+        "created_at": "2023-08-24T17:40:28.323Z",
+        "updated_at": "2023-08-24T19:41:51.625Z",
+        "treatment_id": "887b6ba7-5661-49b3-83e0-4b7bded121a2"
+      },
+      {
+        "id": "af6ac67d-edf7-492f-9e54-632670379807",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T14:25:56.187Z",
+        "updated_at": "2023-08-24T11:24:44.478Z",
+        "treatment_id": "887b6ba7-5661-49b3-83e0-4b7bded121a2"
+      },
+      {
+        "id": "8fb95c6a-43bd-435d-a0c2-281bed18f775",
+        "name": "Depression",
+        "description": "Persistent feelings of sadness and hopelessness",
+        "created_at": "2023-08-24T06:26:04.318Z",
+        "updated_at": "2023-08-24T11:49:12.992Z",
+        "treatment_id": "1e9b11a1-7aa2-4081-a325-b39162b49088"
+      },
+      {
+        "id": "82701088-dfcf-473e-96a7-ed14a09898cb",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T23:25:42.093Z",
+        "updated_at": "2023-08-24T00:49:14.463Z",
+        "treatment_id": "037d9fe2-ffc9-464a-b406-6b960e58801f"
+      },
+      {
+        "id": "dc567aac-62c2-4255-963f-356cce50e9d4",
+        "name": "Migraine",
+        "description": "Recurring severe headaches",
+        "created_at": "2023-08-24T02:19:35.470Z",
+        "updated_at": "2023-08-24T02:53:29.344Z",
+        "treatment_id": "037d9fe2-ffc9-464a-b406-6b960e58801f"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "0032f6c0-f06e-4690-b4e6-2c1f425d1dfd",
+        "date": "2023-08-24T14:47:08.846Z",
+        "time": "2023-08-24T15:03:14.422Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T00:58:27.357Z",
+        "updated_at": "2023-08-24T01:12:44.653Z",
+        "patient_id": "0ebaf278-d28a-4160-bcb8-9a9c974546eb",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0eb6ac2f-7f9d-4aca-844a-fa662df44971",
+        "date": "2023-08-24T23:48:47.309Z",
+        "time": "2023-08-24T18:26:51.596Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T11:57:57.386Z",
+        "updated_at": "2023-08-24T10:44:29.921Z",
+        "patient_id": "3d51988b-3e27-4d3d-b597-dad30ffea9f5",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "2b868a13-a62e-4b2d-9c46-b65cf56e8d6a",
+        "date": "2023-08-24T21:33:31.241Z",
+        "time": "2023-08-24T23:33:18.693Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T05:58:40.333Z",
+        "updated_at": "2023-08-24T01:19:56.049Z",
+        "patient_id": "04cef940-1011-4d35-b812-85c9857f13d2",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1a9c0fa0-e82e-42cd-81a0-74c594fa34aa",
+        "date": "2023-08-24T00:59:55.138Z",
+        "time": "2023-08-24T10:49:25.105Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T08:24:30.483Z",
+        "updated_at": "2023-08-24T06:38:50.558Z",
+        "patient_id": "a06b5f9f-377f-4d7c-bce5-6548117eea5a",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "9bf7d966-61e9-4109-af36-d73a7b4b0db9",
+        "date": "2023-08-24T21:48:56.272Z",
+        "time": "2023-08-24T13:31:17.086Z",
+        "status": "No Show",
+        "created_at": "2023-08-24T08:46:06.006Z",
+        "updated_at": "2023-08-24T21:16:06.444Z",
+        "patient_id": "04cef940-1011-4d35-b812-85c9857f13d2",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "afadb62e-78b9-4ba2-8d5c-1af910bf7e13",
+        "email": "Rosanna_Roberts6@yahoo.com",
+        "firstName": "Laila",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40106040",
+        "tenantId": null
+      },
+      {
+        "reference": "2ac84d7a-5998-4c05-85f0-5d42a917126a",
+        "email": "Modesto98@gmail.com",
+        "firstName": "Nathanial",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9472349",
+        "tenantId": null
+      },
+      {
+        "reference": "c714b234-55dc-4224-a372-73fac729e70b",
+        "email": "Providenci2@gmail.com",
+        "firstName": "Gia",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "017da1cf-838f-4bb7-963f-96d144bd90d6",
+        "email": "Joannie.Lubowitz16@yahoo.com",
+        "firstName": "Peyton",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84205563",
+        "tenantId": null
+      },
+      {
+        "reference": "ad33549e-1962-47c7-94df-732b54f109b8",
+        "email": "Muhammad.Renner@hotmail.com",
+        "firstName": "Erica",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21839",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "7da56da8-ed43-48de-a54f-c909f46552fb",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T20:53:50.899Z",
+        "gender": "Female",
+        "phone": "555-1234",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T02:01:16.574Z",
+        "updated_at": "2023-08-24T04:38:01.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41f16894-382c-4095-88c5-176387bd23e6",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "dob": "2023-08-24T22:38:02.455Z",
+        "gender": "Male",
+        "phone": "555-5678",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T12:55:31.782Z",
+        "updated_at": "2023-08-24T23:23:50.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de862764-c713-4bbc-8321-7241fa3b2efe",
+        "first_name": "Olivia",
+        "last_name": "Garcia",
+        "dob": "2023-08-24T12:30:12.465Z",
+        "gender": "Female",
+        "phone": "555-9012",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T12:58:09.713Z",
+        "updated_at": "2023-08-24T11:52:50.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6e64f20-1047-4d27-81e6-2e815b6b4749",
+        "first_name": "James",
+        "last_name": "Lee",
+        "dob": "2023-08-24T06:56:45.024Z",
+        "gender": "Male",
+        "phone": "555-3456",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T01:20:01.010Z",
+        "updated_at": "2023-08-24T23:04:30.585Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94ad45b6-3906-432f-b48e-ed10af4721c2",
+        "first_name": "Sophia",
+        "last_name": "Robinson",
+        "dob": "2023-08-24T23:09:20.194Z",
+        "gender": "Female",
+        "phone": "555-7890",
+        "address": "654 Maple St",
+        "created_at": "2023-08-24T18:00:16.149Z",
+        "updated_at": "2023-08-24T02:07:28.547Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "c25bc107-1d9a-4a28-8990-4872a68cb958",
+        "name": "Physical therapy",
+        "description": "Treatment to improve mobility and function",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T16:18:57.217Z",
+        "updated_at": "2023-08-24T06:00:56.728Z",
+        "patient_id": "41f16894-382c-4095-88c5-176387bd23e6"
+      },
+      {
+        "id": "8c56fcf3-67e0-4535-ad3f-c9ab0cd1da53",
+        "name": "Dental filling",
+        "description": "Procedure to repair a cavity",
+        "status": "In progress",
+        "created_at": "2023-08-24T08:11:56.151Z",
+        "updated_at": "2023-08-24T04:08:51.921Z",
+        "patient_id": "de862764-c713-4bbc-8321-7241fa3b2efe"
+      },
+      {
+        "id": "3a570888-4d9f-4932-a0f7-b3d820f15257",
+        "name": "Knee replacement surgery",
+        "description": "Surgical procedure to replace a damaged knee joint",
+        "status": "Completed",
+        "created_at": "2023-08-24T03:03:59.231Z",
+        "updated_at": "2023-08-24T15:47:05.043Z",
+        "patient_id": "b6e64f20-1047-4d27-81e6-2e815b6b4749"
+      },
+      {
+        "id": "608dc121-19ac-4dc6-893c-814ff63f8977",
+        "name": "Cognitive behavioral therapy",
+        "description": "Therapy to address negative thoughts and behaviors",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T10:13:59.975Z",
+        "updated_at": "2023-08-24T18:25:01.997Z",
+        "patient_id": "7da56da8-ed43-48de-a54f-c909f46552fb"
+      },
+      {
+        "id": "1f47a348-ff31-44f6-973b-96e13803e30d",
+        "name": "Vaccination",
+        "description": "Administration of a vaccine to prevent diseases",
+        "status": "Postponed",
+        "created_at": "2023-08-24T20:47:11.193Z",
+        "updated_at": "2023-08-24T18:24:04.117Z",
+        "patient_id": "41f16894-382c-4095-88c5-176387bd23e6"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "5823a501-5448-40a7-9ee9-8b0f588d8cc8",
+        "name": "Common cold",
+        "description": "Viral infection causing runny nose and sore throat",
+        "created_at": "2023-08-24T17:16:29.130Z",
+        "updated_at": "2023-08-24T14:16:41.834Z",
+        "treatment_id": "3a570888-4d9f-4932-a0f7-b3d820f15257"
+      },
+      {
+        "id": "fcb3438e-ed06-44fd-ba37-775f4831a7aa",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T05:39:02.153Z",
+        "updated_at": "2023-08-24T13:57:55.215Z",
+        "treatment_id": "608dc121-19ac-4dc6-893c-814ff63f8977"
+      },
+      {
+        "id": "48e18fcf-102d-4160-8cf7-64da67e6ce20",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-24T03:40:57.589Z",
+        "updated_at": "2023-08-24T20:22:00.781Z",
+        "treatment_id": "1f47a348-ff31-44f6-973b-96e13803e30d"
+      },
+      {
+        "id": "2fb14f97-5dec-461a-99af-cb69fef79eeb",
+        "name": "Anxiety disorder",
+        "description": "Mental health disorder characterized by excessive worry",
+        "created_at": "2023-08-24T19:58:30.283Z",
+        "updated_at": "2023-08-24T11:02:04.270Z",
+        "treatment_id": "c25bc107-1d9a-4a28-8990-4872a68cb958"
+      },
+      {
+        "id": "f084b066-a09c-4127-b4da-3aebb5ff569c",
+        "name": "Influenza",
+        "description": "Viral infection causing fever and body aches",
+        "created_at": "2023-08-24T20:27:30.815Z",
+        "updated_at": "2023-08-24T22:23:22.612Z",
+        "treatment_id": "8c56fcf3-67e0-4535-ad3f-c9ab0cd1da53"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c1d1c922-1c98-4627-8629-61d081fd353b",
+        "date": "2023-08-24T06:02:21.336Z",
+        "time": "2023-08-24T14:22:19.259Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T12:56:49.441Z",
+        "updated_at": "2023-08-24T16:01:27.671Z",
+        "patient_id": "94ad45b6-3906-432f-b48e-ed10af4721c2",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "3a5d3e0b-70f0-43fa-872e-13dddee00f3c",
+        "date": "2023-08-24T03:31:29.808Z",
+        "time": "2023-08-24T07:58:43.830Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T08:41:55.282Z",
+        "updated_at": "2023-08-24T23:23:41.937Z",
+        "patient_id": "41f16894-382c-4095-88c5-176387bd23e6",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "e4d2a379-7111-41ec-a001-2da120c9daca",
+        "date": "2023-08-24T01:58:18.805Z",
+        "time": "2023-08-24T16:18:16.139Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T10:46:06.892Z",
+        "updated_at": "2023-08-24T17:39:30.756Z",
+        "patient_id": "94ad45b6-3906-432f-b48e-ed10af4721c2",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "76e92d51-bffa-443d-9f28-c76f96462119",
+        "date": "2023-08-24T03:38:14.049Z",
+        "time": "2023-08-24T10:32:43.600Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T17:00:03.799Z",
+        "updated_at": "2023-08-24T08:14:26.085Z",
+        "patient_id": "b6e64f20-1047-4d27-81e6-2e815b6b4749",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "b856f89e-b850-4e25-9b1e-18b7e892099b",
+        "date": "2023-08-24T01:03:26.396Z",
+        "time": "2023-08-24T14:10:02.200Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:47:55.747Z",
+        "updated_at": "2023-08-24T00:02:03.875Z",
+        "patient_id": "94ad45b6-3906-432f-b48e-ed10af4721c2",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fe4cc317-e2be-4d44-b2e2-5e3907ddbfa1",
+        "email": "Otilia.Waelchi@hotmail.com",
+        "firstName": "Elbert",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60095727",
+        "tenantId": null
+      },
+      {
+        "reference": "86f75275-80d2-44ac-bb39-89a89f18fc83",
+        "email": "Lucy14@yahoo.com",
+        "firstName": "Sanford",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/808.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ff443ed-1f87-4ee3-8677-ef1ac9bc2cd2",
+        "email": "Albin93@hotmail.com",
+        "firstName": "Rozella",
+        "lastName": "Rippin-Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69f7358b-20dc-4bd7-bc61-c3ac9b4c3807",
+        "email": "Mozelle86@hotmail.com",
+        "firstName": "Magdalen",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74501918",
+        "tenantId": null
+      },
+      {
+        "reference": "b9636cfd-2f5f-472a-9aeb-82dfd5208a90",
+        "email": "Verona21@gmail.com",
+        "firstName": "Cristina",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58580638",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "82daa355-8740-4b0c-9ff9-eb43c5748282",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T17:19:30.792Z",
+        "gender": "Female",
+        "phone": "123-456-7890",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T07:33:34.147Z",
+        "updated_at": "2023-08-24T07:36:47.013Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2f34aaf-b3a1-42a6-a86a-9f61d08e43fa",
+        "first_name": "Daniel",
+        "last_name": "Thompson",
+        "dob": "2023-08-24T20:10:17.189Z",
+        "gender": "Male",
+        "phone": "987-654-3210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T12:40:26.190Z",
+        "updated_at": "2023-08-24T17:46:11.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "654c184e-e4b5-4c4c-b581-860b4e39701d",
+        "first_name": "Olivia",
+        "last_name": "Harris",
+        "dob": "2023-08-24T06:21:02.895Z",
+        "gender": "Female",
+        "phone": "456-789-1230",
+        "address": "789 Oak St",
+        "created_at": "2023-08-24T09:51:11.677Z",
+        "updated_at": "2023-08-24T02:11:43.917Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "485f0f1e-e214-45f6-8564-3f659b53a7c6",
+        "first_name": "Matthew",
+        "last_name": "Nelson",
+        "dob": "2023-08-24T14:40:06.695Z",
+        "gender": "Male",
+        "phone": "321-654-9870",
+        "address": "321 Pine St",
+        "created_at": "2023-08-24T00:49:40.012Z",
+        "updated_at": "2023-08-24T06:06:49.234Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91dc9a80-e412-4693-997f-55e40be8bd7c",
+        "first_name": "Sophia",
+        "last_name": "Robinson",
+        "dob": "2023-08-24T05:35:53.143Z",
+        "gender": "Female",
+        "phone": "789-123-4560",
+        "address": "987 Maple St",
+        "created_at": "2023-08-24T09:05:51.391Z",
+        "updated_at": "2023-08-24T06:53:20.988Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "5063f317-32cf-4294-9f3d-b67a2a51ccd9",
+        "name": "Root Canal",
+        "description": "Treatment for infected tooth pulp",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T03:37:55.541Z",
+        "updated_at": "2023-08-24T15:08:50.117Z",
+        "patient_id": "a2f34aaf-b3a1-42a6-a86a-9f61d08e43fa"
+      },
+      {
+        "id": "568eb9cd-5224-4409-b4f4-6959a6f25447",
+        "name": "Teeth Whitening",
+        "description": "Procedure to lighten teeth",
+        "status": "In Progress",
+        "created_at": "2023-08-24T17:41:44.923Z",
+        "updated_at": "2023-08-24T13:31:01.004Z",
+        "patient_id": "82daa355-8740-4b0c-9ff9-eb43c5748282"
+      },
+      {
+        "id": "fcf4b3fa-0b38-43a1-abc9-270eb884defc",
+        "name": "Pediatric Checkup",
+        "description": "Routine examination for children",
+        "status": "Completed",
+        "created_at": "2023-08-24T10:00:04.962Z",
+        "updated_at": "2023-08-24T19:52:42.573Z",
+        "patient_id": "91dc9a80-e412-4693-997f-55e40be8bd7c"
+      },
+      {
+        "id": "b5e64185-f0c9-4f37-a1d6-551121e5cce0",
+        "name": "Knee Replacement",
+        "description": "Surgical procedure to replace knee joint",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T21:34:08.931Z",
+        "updated_at": "2023-08-24T09:14:21.544Z",
+        "patient_id": "91dc9a80-e412-4693-997f-55e40be8bd7c"
+      },
+      {
+        "id": "f95b02ef-ff94-485a-bfe6-a2e3b90b3018",
+        "name": "Heart Surgery",
+        "description": "Surgical procedure for heart-related issues",
+        "status": "Pending",
+        "created_at": "2023-08-24T11:53:28.884Z",
+        "updated_at": "2023-08-24T15:23:57.367Z",
+        "patient_id": "a2f34aaf-b3a1-42a6-a86a-9f61d08e43fa"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "9e3ef02c-dfd8-4fb6-96c1-9acc5dc4d5a3",
+        "name": "Cavity",
+        "description": "Tooth decay",
+        "created_at": "2023-08-24T14:52:24.813Z",
+        "updated_at": "2023-08-24T19:31:33.040Z",
+        "treatment_id": "b5e64185-f0c9-4f37-a1d6-551121e5cce0"
+      },
+      {
+        "id": "b11183d7-bd30-4ed0-ae09-48287b877146",
+        "name": "Gingivitis",
+        "description": "Inflammation of gums",
+        "created_at": "2023-08-24T08:09:09.028Z",
+        "updated_at": "2023-08-24T20:57:33.207Z",
+        "treatment_id": "b5e64185-f0c9-4f37-a1d6-551121e5cce0"
+      },
+      {
+        "id": "9b6eea6c-3649-4470-b945-7e18d1b3e8ee",
+        "name": "Bronchitis",
+        "description": "Inflammation of bronchial tubes",
+        "created_at": "2023-08-24T12:24:29.684Z",
+        "updated_at": "2023-08-24T09:28:57.248Z",
+        "treatment_id": "568eb9cd-5224-4409-b4f4-6959a6f25447"
+      },
+      {
+        "id": "0c52fe78-d5df-4872-887c-a552ee4fd5ac",
+        "name": "Arthritis",
+        "description": "Inflammation of joints",
+        "created_at": "2023-08-24T10:13:28.032Z",
+        "updated_at": "2023-08-24T16:09:28.285Z",
+        "treatment_id": "fcf4b3fa-0b38-43a1-abc9-270eb884defc"
+      },
+      {
+        "id": "95826a76-e80d-4dde-ba02-1406f8417cf2",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T02:52:38.929Z",
+        "updated_at": "2023-08-24T00:59:33.943Z",
+        "treatment_id": "f95b02ef-ff94-485a-bfe6-a2e3b90b3018"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9eb8b798-9960-4b3a-bf66-04ef8d009a55",
+        "date": "2023-08-24T17:47:01.204Z",
+        "time": "2023-08-24T17:41:16.117Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T04:44:11.107Z",
+        "updated_at": "2023-08-24T13:44:24.391Z",
+        "patient_id": "a2f34aaf-b3a1-42a6-a86a-9f61d08e43fa",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "767b93a0-98e3-4cf3-9e26-addb450b263e",
+        "date": "2023-08-24T05:55:51.429Z",
+        "time": "2023-08-24T16:27:29.240Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T10:34:59.215Z",
+        "updated_at": "2023-08-24T16:06:08.259Z",
+        "patient_id": "82daa355-8740-4b0c-9ff9-eb43c5748282",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "c8c2f6c5-7df8-4be7-91e7-e3c7af79772f",
+        "date": "2023-08-24T07:11:32.224Z",
+        "time": "2023-08-24T21:12:44.180Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T06:55:16.322Z",
+        "updated_at": "2023-08-24T10:15:51.867Z",
+        "patient_id": "91dc9a80-e412-4693-997f-55e40be8bd7c",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "b180ade2-950a-4712-bbff-529240e1716c",
+        "date": "2023-08-24T16:43:10.738Z",
+        "time": "2023-08-24T19:33:15.205Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T07:41:56.793Z",
+        "updated_at": "2023-08-24T20:35:58.489Z",
+        "patient_id": "82daa355-8740-4b0c-9ff9-eb43c5748282",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0db65d2c-65a8-4fef-88f7-46142af86a8d",
+        "date": "2023-08-24T00:07:49.659Z",
+        "time": "2023-08-24T11:35:20.941Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T08:07:09.508Z",
+        "updated_at": "2023-08-24T13:15:23.522Z",
+        "patient_id": "654c184e-e4b5-4c4c-b581-860b4e39701d",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "319954ee-e48a-44bb-b3ab-a8f861403e03",
+        "email": "Wade65@hotmail.com",
+        "firstName": "Deron",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bda77f70-3839-4523-8222-041a85425390",
+        "email": "Bernhard81@gmail.com",
+        "firstName": "Muhammad",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f29f0d2-fe50-4b0f-ba7b-38d8e263d207",
+        "email": "Janet_Kuhn@yahoo.com",
+        "firstName": "Walter",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25011082",
+        "tenantId": null
+      },
+      {
+        "reference": "558fbc7f-f4ec-4f61-9e7e-14860d85383b",
+        "email": "Hosea.Crona@gmail.com",
+        "firstName": "Taurean",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/170.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75c83630-fddf-46ac-bab6-045088d68144",
+        "email": "Tyrese_Mayert66@yahoo.com",
+        "firstName": "Darrell",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10814508",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "4106ce8e-aaf0-4e8b-b2cd-505f9f5c71bb",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-08-24T11:46:01.395Z",
+        "gender": "Female",
+        "phone": "123-456-7890",
+        "address": "123 Main St",
+        "created_at": "2023-08-24T04:47:06.843Z",
+        "updated_at": "2023-08-24T09:39:37.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e06ad017-1d09-4aac-85d1-40ad49807bec",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "dob": "2023-08-24T04:58:40.997Z",
+        "gender": "Male",
+        "phone": "987-654-3210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-24T14:22:01.446Z",
+        "updated_at": "2023-08-24T05:01:25.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4a00806-2d9e-46ac-9708-aaea2061f05a",
+        "first_name": "Olivia",
+        "last_name": "Harris",
+        "dob": "2023-08-24T03:23:23.011Z",
+        "gender": "Female",
+        "phone": "555-123-4567",
+        "address": "789 Oak Ave",
+        "created_at": "2023-08-24T14:45:37.160Z",
+        "updated_at": "2023-08-24T00:14:32.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "441666ac-c6b0-45df-9059-0e21307b01a8",
+        "first_name": "Matthew",
+        "last_name": "Jackson",
+        "dob": "2023-08-24T20:57:39.218Z",
+        "gender": "Male",
+        "phone": "888-999-0000",
+        "address": "321 Pine Rd",
+        "created_at": "2023-08-24T23:25:43.559Z",
+        "updated_at": "2023-08-24T00:31:31.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4af68cec-3db6-4ee2-88f7-4e18f7948863",
+        "first_name": "Sophia",
+        "last_name": "Lee",
+        "dob": "2023-08-24T15:05:31.873Z",
+        "gender": "Female",
+        "phone": "444-555-6666",
+        "address": "555 Maple Ln",
+        "created_at": "2023-08-24T13:11:14.517Z",
+        "updated_at": "2023-08-24T21:42:52.719Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "treatment": [
+      {
+        "id": "e143f329-cd15-4607-a9c1-b6b50e140188",
+        "name": "Physical Therapy",
+        "description": "Treatment for musculoskeletal injuries",
+        "status": "Active",
+        "created_at": "2023-08-24T06:23:20.189Z",
+        "updated_at": "2023-08-24T17:11:06.686Z",
+        "patient_id": "d4a00806-2d9e-46ac-9708-aaea2061f05a"
+      },
+      {
+        "id": "5fe88c76-714b-4b58-8e9c-c3af77364974",
+        "name": "Acupuncture",
+        "description": "Traditional Chinese medicine technique",
+        "status": "Inactive",
+        "created_at": "2023-08-24T13:18:23.696Z",
+        "updated_at": "2023-08-24T20:59:31.663Z",
+        "patient_id": "d4a00806-2d9e-46ac-9708-aaea2061f05a"
+      },
+      {
+        "id": "3bb99f07-3c95-4717-a8b7-a79d4e1b7b4f",
+        "name": "Chiropractic",
+        "description": "Manipulation of the spine",
+        "status": "Pending",
+        "created_at": "2023-08-24T00:36:47.730Z",
+        "updated_at": "2023-08-24T00:38:33.895Z",
+        "patient_id": "441666ac-c6b0-45df-9059-0e21307b01a8"
+      },
+      {
+        "id": "41fdf7c2-c051-4eea-8aa6-921006edace8",
+        "name": "Massage Therapy",
+        "description": "Relaxation and stress relief",
+        "status": "Completed",
+        "created_at": "2023-08-24T10:43:06.093Z",
+        "updated_at": "2023-08-24T01:30:52.884Z",
+        "patient_id": "4106ce8e-aaf0-4e8b-b2cd-505f9f5c71bb"
+      },
+      {
+        "id": "5723a649-e878-4d77-bc08-2d75b2ae4c28",
+        "name": "Yoga",
+        "description": "Physical and mental exercise",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T14:04:11.228Z",
+        "updated_at": "2023-08-24T21:19:19.664Z",
+        "patient_id": "441666ac-c6b0-45df-9059-0e21307b01a8"
+      }
+    ],
+    "diagnosis": [
+      {
+        "id": "47a8bda4-93d9-484a-8cb9-ee0764628c20",
+        "name": "Hypertension",
+        "description": "High blood pressure",
+        "created_at": "2023-08-24T13:33:15.385Z",
+        "updated_at": "2023-08-24T11:21:54.306Z",
+        "treatment_id": "3bb99f07-3c95-4717-a8b7-a79d4e1b7b4f"
+      },
+      {
+        "id": "6985c7ea-2339-4075-a4c1-1c349837752a",
+        "name": "Diabetes",
+        "description": "Chronic condition affecting blood sugar levels",
+        "created_at": "2023-08-23T23:56:02.543Z",
+        "updated_at": "2023-08-24T04:20:06.181Z",
+        "treatment_id": "e143f329-cd15-4607-a9c1-b6b50e140188"
+      },
+      {
+        "id": "a0dc67ae-214d-47c7-b267-9b660afaef1d",
+        "name": "Depression",
+        "description": "Mental health disorder",
+        "created_at": "2023-08-24T00:02:27.808Z",
+        "updated_at": "2023-08-24T05:05:04.341Z",
+        "treatment_id": "5fe88c76-714b-4b58-8e9c-c3af77364974"
+      },
+      {
+        "id": "9eac4039-5243-4107-a3fd-c24fbbbad98f",
+        "name": "Migraine",
+        "description": "Recurring severe headaches",
+        "created_at": "2023-08-24T11:18:37.141Z",
+        "updated_at": "2023-08-24T17:55:55.549Z",
+        "treatment_id": "5723a649-e878-4d77-bc08-2d75b2ae4c28"
+      },
+      {
+        "id": "8ec13369-fefc-4b32-ad76-f3374a2ca339",
+        "name": "Allergies",
+        "description": "Immune system overreaction to certain substances",
+        "created_at": "2023-08-24T15:57:01.921Z",
+        "updated_at": "2023-08-23T23:57:37.098Z",
+        "treatment_id": "5723a649-e878-4d77-bc08-2d75b2ae4c28"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "cdc62ec0-25e7-48bd-b0a4-f1e573b9405e",
+        "date": "2023-08-24T22:21:14.839Z",
+        "time": "2023-08-24T17:29:27.550Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T18:31:08.675Z",
+        "updated_at": "2023-08-24T16:40:42.943Z",
+        "patient_id": "441666ac-c6b0-45df-9059-0e21307b01a8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "edf58389-0d18-4ee9-b3b7-101ec110bed5",
+        "date": "2023-08-24T05:16:02.089Z",
+        "time": "2023-08-24T16:59:36.821Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T08:44:55.594Z",
+        "updated_at": "2023-08-24T03:29:09.999Z",
+        "patient_id": "4106ce8e-aaf0-4e8b-b2cd-505f9f5c71bb",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "1722d73a-ef95-4799-84d1-5a59610f27eb",
+        "date": "2023-08-24T03:34:05.900Z",
+        "time": "2023-08-24T14:13:39.365Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:01:56.071Z",
+        "updated_at": "2023-08-24T22:54:35.720Z",
+        "patient_id": "d4a00806-2d9e-46ac-9708-aaea2061f05a",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "f656d947-f9cc-4c95-8589-40daa298d718",
+        "date": "2023-08-24T14:33:45.795Z",
+        "time": "2023-08-24T13:36:45.181Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T06:44:29.152Z",
+        "updated_at": "2023-08-24T00:41:25.119Z",
+        "patient_id": "441666ac-c6b0-45df-9059-0e21307b01a8",
+        "practice_id": "main_entity_pk"
+      },
+      {
+        "id": "0a958fdb-ce72-4190-a1c3-3b498d815401",
+        "date": "2023-08-24T03:44:55.600Z",
+        "time": "2023-08-24T08:43:59.150Z",
+        "status": "No Show",
+        "created_at": "2023-08-24T13:48:51.710Z",
+        "updated_at": "2023-08-24T06:05:21.587Z",
+        "patient_id": "d4a00806-2d9e-46ac-9708-aaea2061f05a",
+        "practice_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "34996af3-b48d-4f9b-a138-77ad5af85542",
+        "email": "Jamarcus_Lubowitz@yahoo.com",
+        "firstName": "Kiana",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60984964",
+        "tenantId": null
+      },
+      {
+        "reference": "1fca924a-2211-4e10-897b-25f2278f3d91",
+        "email": "Eleanore78@gmail.com",
+        "firstName": "Rosalee",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25146508",
+        "tenantId": null
+      },
+      {
+        "reference": "197dc040-ad8e-49f2-a767-1f8b2e2c4dfd",
+        "email": "Osvaldo.Skiles27@hotmail.com",
+        "firstName": "Rory",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "405915e5-43db-48e6-83d4-2c08b7326241",
+        "email": "Marquis_Huels@hotmail.com",
+        "firstName": "Andreanne",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44435272",
+        "tenantId": null
+      },
+      {
+        "reference": "619a64f7-b969-463f-9476-a9afcaa4062d",
+        "email": "Shanna17@yahoo.com",
+        "firstName": "Estel",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/347.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
